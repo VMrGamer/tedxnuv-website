@@ -8,7 +8,7 @@ jQuery(document).ready(function($) {
 
 	"use strict";
 
-	
+
 
 	var siteMenuClone = function() {
 
@@ -19,11 +19,11 @@ jQuery(document).ready(function($) {
 
 
 		setTimeout(function() {
-			
+
 			var counter = 0;
       $('.site-mobile-menu .has-children').each(function(){
         var $this = $(this);
-        
+
         $this.prepend('<span class="arrow-collapse collapsed">');
 
         $this.find('.arrow-collapse').attr({
@@ -49,8 +49,8 @@ jQuery(document).ready(function($) {
       } else {
         $this.addClass('active');
       }
-      e.preventDefault();  
-      
+      e.preventDefault();
+
     });
 
 		$(window).resize(function() {
@@ -75,7 +75,7 @@ jQuery(document).ready(function($) {
 				$('body').addClass('offcanvas-menu');
 				$this.addClass('active');
 			}
-		}) 
+		})
 
 		// click outisde offcanvas
 		$(document).mouseup(function(e) {
@@ -86,7 +86,7 @@ jQuery(document).ready(function($) {
 				}
 	    }
 		});
-	}; 
+	};
 	siteMenuClone();
 
 
@@ -213,7 +213,7 @@ jQuery(document).ready(function($) {
 	        	stagePadding: 0,
 	          items: 2
 	        }
-	        
+
 		    }
 			});
 		}
@@ -288,7 +288,7 @@ jQuery(document).ready(function($) {
 	var siteCountDown = function() {
 
 		if ( $('#date-countdown').length > 0 ) {
-			$('#date-countdown').countdown('2020/10/10', function(event) {
+			$('#date-countdown').countdown('2019/03/24', function(event) {
 			  var $this = $(this).html(event.strftime(''
 			    + '<span class="countdown-block"><span class="label">%w</span> weeks </span>'
 			    + '<span class="countdown-block"><span class="label">%d</span> days </span>'
@@ -297,7 +297,7 @@ jQuery(document).ready(function($) {
 			    + '<span class="countdown-block"><span class="label">%S</span> sec</span>'));
 			});
 		}
-				
+
 	};
 	siteCountDown();
 
@@ -323,7 +323,7 @@ jQuery(document).ready(function($) {
 			} else {
 				navbar.removeClass('scrolled');
 			}
-			
+
 		})
 
 	}
