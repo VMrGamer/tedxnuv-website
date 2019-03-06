@@ -1239,7 +1239,7 @@ a {
   color: #fff; }
 
 #date-countdown .countdown-block {
-  background-color: rgba(255, 43, 6, 0.4);
+  background-color: rgba(255, 255, 255, 0.6);
   display: inline-block;
   margin: 0 10px;
   border: 1px solid #ccc;
