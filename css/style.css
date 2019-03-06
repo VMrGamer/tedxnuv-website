@@ -450,11 +450,45 @@ a {
 	  margin-top: 10px;
     font-weight: 200;
 	max-width: 200%;
-	height: auto;}
+  height: auto;}
+    @media only screen and (max-width: 768px){
+      .site-navbar-wrap{
+        padding-top: none;
+      }
+      .site-navbar .site-logo {
+        margin-top: none;
+        max-width: 300%;
+        height: auto;}
+    }
+    @media only screen and (max-width: 480px){
+      .site-navbar-wrap{
+        padding-top: none;
+      }
+      .site-navbar .site-logo {
+        margin-top: none;
+        max-width: 400%;
+        height: auto;}
+    }
     .site-navbar .site-logo a {
       font-weight: 200;
       font-size: 26px;
       color: #000; }
+    @media only screen and (max-width: 991px){
+      .site-menu{
+        display: none !important;
+      }
+      .site-menu-toggle{
+        display: inline !important;
+      }
+    }
+    @media only screen and (min-width: 992px){
+      .site-menu{
+        display: inline !important;
+      }
+      .site-menu-toggle{
+        display: none !important;
+      }
+    }
   .site-navbar .site-navigation .site-menu {
     margin-bottom: 0; }
     .site-navbar .site-navigation .site-menu .active > a {
