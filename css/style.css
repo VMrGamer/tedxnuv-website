@@ -241,13 +241,16 @@ a {
 
 .regular-font-size {
   font-size: 1rem !important; }
-
-  .large-font-size {
+  .medium-font-size {
     font-size: 2rem !important;
     font-weight: bold;
     color:#000;}
   .large-font-size {
     font-size: 3rem !important;
+    font-weight: bold;
+    color:#000;}
+  .xlarge-font-size {
+    font-size: 4rem !important;
     font-weight: bold;
     color:#000;}
 .text-black {
